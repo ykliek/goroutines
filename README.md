@@ -5,6 +5,7 @@
 | Turn-in directory: goroutines/ |
 | Files to turn in: main.go, *.go |
 | Allowed function: all standard library |
+
 The program reads from stdin, the contents of the URL. You must send an HTTP request to each URL using the GET method and count the number of Go entries in the response body. At the end of the work, the application displays the total number of "Go" lines found in all URLs passed, for example:
 ```
 $> cat urls | go run src/cmd/wb-test/main.go
